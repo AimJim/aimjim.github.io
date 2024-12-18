@@ -1,25 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Aimar Jiménez</title>
-    </head>
+<html>
+<head>
+<title>Aimar Jiménez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
 
-    <body>
-        <h1>Projects</h1>
-        <div id="Projects">
-            <div>
-                <h3>The Scale Of Life</h3>
-                <div class="OddProject">
-                    <p><b>The Scale Of Life</b> it's a game made for the GMTK2024 gamejam where you experience the tiny and huge aspects of life.</p>
-                    <p>I was the responsible of programming the game</p><!-- NO se redactar-->
-                    <img src="images/ScaleOfLife.png" alt="The Scale Of Life banner">
-                    <button type="button">Available on Itch.io</button>
-                </div>
-                
-            </div>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Aimar Jiménez</b></h1>
+  <p>Ingeniero informático y desarrollador de videojuegos</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- entries -->
+<div class="">
+  <!-- entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    
+    <div class="w3-container">
+      <h1><b>The Scale of Life</b></h1>
+      
+    </div>
+
+    <div class="w3-container">
+        <div class="OddProject" >
+                    
+            <p class="projectText">
+              The Scale Of Life es un videojuego desarrollado para la GMTK2024 Game Jam, con tema <i>"Built to Scale"</i>. El videojuego esta compuesto por distintos minijuegos
+              que representan desde los actos más pequeños de la vida diaria, como desayunar, hasta los actos más grandes, como observar el cielo o soñar.
+            <br>
+            <br>
+              En este proyecto, participe haciendome cargo de la programación de varios de los minijuegos, así como de partes del <i>testing</i> y arreglo de errores.
+            </p>
+            <img src="images/ScaleOfLife.png" alt="Descripción" class="projectImg">
+          </div>
+      
+      
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button onclick="location.href='https://trafurtos.itch.io/the-scale-of-life'" class="w3-button w3-padding-large w3-white w3-border"><b>Try it</b></button></p>
         </div>
-        
-    </body>
+       
+      </div>
+    </div>
+  </div>
+  <hr>
 
+  <!-- entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    
+    <div class="w3-container">
+      <h1><b>CARnivore</b></h1>
+      
+    </div>
+
+    <div class="w3-container">
+        <div class="OddProject" >
+            <img src="images/CARnivore.png" alt="Descripción" class="projectImg">      
+            <p class="projectText">
+             CARnivore es un videojuego desarrollado para la ScreamJam 2024. El videojuego presenta un viaje por carretera, con fin de descubrir que le ha sucedido a los padres del protagonista.
+             Para ello el jugador debe tomar el coche y afrontar la carretera. A lo largo del camino, el coche comenzará a dar errores, y mostrando comportamientos extraños.
+             <br>
+             <br>
+                En este proyecto, participe programando parte de la interacción y comportamiento del coche, así como apoyando al encargado de arte, realizando modelos 3D y texturas.
+            </p>
+            
+          </div>
+      
+      
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button onclick="location.href='https://trafurtos.itch.io/carnivore'" class="w3-button w3-padding-large w3-white w3-border"><b>Try it</b></button></p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- end entry-->
+
+    <!-- entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+    
+        <div class="w3-container">
+          <h1><b>Onion Ring</b></h1>
+          
+        </div>
+    
+        <div class="w3-container">
+            <div class="OddProject" >
+                 
+                <p class="projectText">
+                  Onion Ring es un videojuego en realidad virtual (VR), surgido de un proyecto de clase, y actualmente en desarrollo. En este videojuego, el jugador deberá encargarse 
+                  de un restaurante, cocinando los platos solicitados y asegurandose de tener los ingredientes necesarios. Aunque el pueblo en el que se ambienta, no posee carne para poder surtir
+                  al restaurante, por lo que el jugador debe <i>utilizar</i> a los clientes como producto, siempre con cuidado de no enfadar demasiado al pueblo.
+                  <br>
+                  <br>
+                  En este proyecto, participo programando el comportamiento de los clientes y las interacciones con los distintos elementos del escenario, y de realizar el testing del videojuego.
+                </p>
+                <img src="images/OnionRing.png" alt="Descripción" class="projectImg">     
+              </div>
+          
+          
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><button onclick="location.href='https://www.youtube.com/watch?v=BFp_Sle2Vss'" class="w3-button w3-padding-large w3-white w3-border"><b>Trailer</b></button></p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- end entry-->
+  </div>
+<!-- END ENTRIES -->
+
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <h3>Contacto:</h3>
+    <a href="https://www.linkedin.com/in/aimar-jim%C3%A9nez-segade-a28071295/">LinkedIn</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
 </html>
