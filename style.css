@@ -3,8 +3,16 @@
 }
 
 .projectImg{
-     width:80%; border-radius: 10%;
+     width:100%; border-radius: 10% 10% 0px 0px;
+     height: auto;
+     display: block;
+     margin: 0 auto;
 }
+
+.textArea{
+    border-radius: 10% 10% 0px 0px;
+}
+
 .projectText{
     width: 100%;
     margin-left: 1%;
@@ -13,4 +21,23 @@
 
 .Partition{
     text-decoration:none;
+}
+
+.Content{
+    display: flex;
+}
+
+#GameJams{
+    
+    width: 50%; /* o un valor específico */
+    padding-right: 2%;
+   
+    border-right:  2px solid black;
+}
+
+#PersonalProjects {
+    
+    width: 50%; /* o un valor específico */
+    margin-left: 2%;
+    padding: 0;
 }
