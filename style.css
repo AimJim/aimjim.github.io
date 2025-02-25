@@ -23,21 +23,42 @@
     text-decoration:none;
 }
 
-.Content{
-    display: flex;
-}
 
 #GameJams{
     
-    width: 50%; /* o un valor específico */
-    padding-right: 2%;
-   
-    border-right:  2px solid black;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
 }
 
 #PersonalProjects {
     
-    width: 50%; /* o un valor específico */
-    margin-left: 2%;
-    padding: 0;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+#PerfectProduction{
+    grid-column: 1;
+    grid-row: 1;
+}
+#ShutUp{
+    grid-column: 2;
+    grid-row: 1;
+}
+#ScaleOfLife{
+    grid-column: 3;
+    grid-row: 1;
+}
+#Carnivore{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#OnionRing{
+    grid-column: 1;
+    grid-row: 1;
 }
