@@ -40,21 +40,24 @@
     grid-template-columns: repeat(3,1fr);
 
 }
-
-#PerfectProduction{
+#LURE{
     grid-column: 1;
     grid-row: 1;
 }
-#ShutUp{
+#PerfectProduction{
     grid-column: 2;
     grid-row: 1;
 }
-#ScaleOfLife{
+#ShutUp{
     grid-column: 3;
     grid-row: 1;
 }
-#Carnivore{
+#ScaleOfLife{
     grid-column: 1;
+    grid-row: 2;
+}
+#Carnivore{
+    grid-column: 2;
     grid-row: 2;
 }
 
