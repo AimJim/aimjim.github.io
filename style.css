@@ -1,67 +1,131 @@
-.OddProject{
-    display: flex; align-items: flex-start;
+body{
+    background-color: rgb(21, 0, 80);
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    text-align: center;
+    margin: 5vh 0;
+    position: relative;
 }
 
-.projectImg{
-     width:100%; border-radius: 10% 10% 0px 0px;
-     height: auto;
-     display: block;
-     margin: 0 auto;
+#content {
+    display: flex;          
+    width: 100vw;           
+    height: 80vh;          
 }
 
-.textArea{
-    border-radius: 10% 10% 0px 0px;
+
+#content div {
+    flex: 1;                
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
 }
 
-.projectText{
+.box {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);                
+    font-size: 3rem;
+    font-weight: bold;
+    background-size: cover;      
+    background-position: center; 
+}
+
+.box:hover{
+    
+    transform: scale(1.05);
+}
+
+.games{
+    background-image: url("images/games.png");
+}
+.projects{
+    background-image: url("images/PROJECTS.png");
+}
+
+
+p a {
+    color: white;       
+    text-decoration: none; /
+  }
+
+  p a:hover {
+    text-decoration: underline; 
+  }
+
+/* Second webs*/
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+#title{
+ 
+    padding-left: 20px;
+}
+
+  #projects div {
+    background: #1a1a1a;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
     width: 100%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
+    max-width: 300px;
+  }
 
-.Partition{
-    text-decoration:none;
-}
+  #projects div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  }
+
+  #projects img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  #projects p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    vertical-align: middle;
+  }
+
+  header img {
+    position: absolute;
+    top: 32px; 
+    left: 32px;
+    width: 32px;  
+    height: 32px;
+    cursor: pointer;
+  }
+
+  header img:hover{
+    transform: scale(1.15);
+  }
 
 
-#GameJams{
+
+  footer {
     
-    width: 100%; 
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-
-}
-
-#PersonalProjects {
-    
-    width: 100%; 
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-
-}
-#LURE{
-    grid-column: 1;
-    grid-row: 1;
-}
-#PerfectProduction{
-    grid-column: 2;
-    grid-row: 1;
-}
-#ShutUp{
-    grid-column: 3;
-    grid-row: 1;
-}
-#ScaleOfLife{
-    grid-column: 1;
-    grid-row: 2;
-}
-#Carnivore{
-    grid-column: 2;
-    grid-row: 2;
-}
-
-#OnionRing{
-    grid-column: 1;
-    grid-row: 1;
-}
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
