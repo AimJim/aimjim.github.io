@@ -28,31 +28,6 @@ header{
     font-size: 2rem;
 }
 
-.box {
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);                
-    font-size: 3rem;
-    font-weight: bold;
-    background-size: cover;      
-    background-position: center; 
-}
-
-.box:hover{
-    
-    transform: scale(1.05);
-}
-
-.games{
-    background-image: url("images/games.png");
-}
-.projects{
-    background-image: url("images/PROJECTS.png");
-}
 
 
 p a {
@@ -64,7 +39,7 @@ p a {
     text-decoration: underline; 
   }
 
-/* Second webs*/
+
 #projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
